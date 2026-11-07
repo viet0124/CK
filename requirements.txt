@@ -1,0 +1,17 @@
+# Thư viện cốt lõi (Cài đặt tùy theo phiên bản CUDA của máy)
+torch>=2.0.0
+torch-geometric>=2.4.0
+
+# Tính toán & Đánh giá Metrics
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Trực quan hóa Đồ thị & Báo cáo (Case Study)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+networkx>=3.1
+pyvis>=0.3.2
+jupyter>=1.0.0
+ipykernel>=6.25.0
+

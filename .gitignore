@@ -1,0 +1,49 @@
+# ============================
+# 1. Python & Jupyter Cache
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================
+# 2. Virtual Environments & IDE
+# ============================
+.venv/
+venv/
+env/
+.env
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ============================
+# 3. Heavy Dataset Files (data/)
+# (processed_graph.pt ~214MB vượt giới hạn 100MB của GitHub)
+# ============================
+data/input/*
+data/processed/*
+data/mock/*
+!data/input/.gitkeep
+!data/input/orange_bank/
+!data/input/orange_bank/pyg/
+!data/input/orange_bank/pyg/.gitkeep
+!data/processed/.gitkeep
+!data/mock/.gitkeep
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.parquet
+
+# (Lưu ý: Các file bàn giao trong outputs/ gồm checkpoints ~145KB,
+# predictions ~30KB, tables và figures đều rất nhẹ nên được giữ lại
+# để cả nhóm clone về kiểm tra hoặc chấm điểm ngay theo Bước 7).
+

@@ -1,0 +1,98 @@
+{
+  "GCN_seed42": {
+    "config": {
+      "model_type": "GCN",
+      "in_channels": 60,
+      "hidden_channels": 64,
+      "out_channels": 64,
+      "heads": 1,
+      "dropout": 0.2
+    },
+    "seed": 42,
+    "best_epoch": 50,
+    "best_val_ap": 0.851,
+    "f1_threshold": 0.3227,
+    "checkpoint_path": "outputs/checkpoints/gcn_seed42.pt",
+    "prediction_path": "outputs/predictions/gcn_seed42_predictions.pt"
+  },
+  "GCN_seed43": {
+    "config": {
+      "model_type": "GCN",
+      "in_channels": 60,
+      "hidden_channels": 64,
+      "out_channels": 64,
+      "heads": 1,
+      "dropout": 0.2
+    },
+    "seed": 43,
+    "best_epoch": 41,
+    "best_val_ap": 0.8509,
+    "f1_threshold": 0.3955,
+    "checkpoint_path": "outputs/checkpoints/gcn_seed43.pt",
+    "prediction_path": "outputs/predictions/gcn_seed43_predictions.pt"
+  },
+  "GCN_seed44": {
+    "config": {
+      "model_type": "GCN",
+      "in_channels": 60,
+      "hidden_channels": 64,
+      "out_channels": 64,
+      "heads": 1,
+      "dropout": 0.2
+    },
+    "seed": 44,
+    "best_epoch": 53,
+    "best_val_ap": 0.8597,
+    "f1_threshold": 0.3136,
+    "checkpoint_path": "outputs/checkpoints/gcn_seed44.pt",
+    "prediction_path": "outputs/predictions/gcn_seed44_predictions.pt"
+  },
+  "GAT_seed42": {
+    "config": {
+      "model_type": "GAT",
+      "in_channels": 60,
+      "hidden_channels": 64,
+      "out_channels": 64,
+      "heads": 4,
+      "dropout": 0.2
+    },
+    "seed": 42,
+    "best_epoch": 42,
+    "best_val_ap": 0.856,
+    "f1_threshold": 0.4455,
+    "checkpoint_path": "outputs/checkpoints/gat_seed42.pt",
+    "prediction_path": "outputs/predictions/gat_seed42_predictions.pt"
+  },
+  "GAT_seed43": {
+    "config": {
+      "model_type": "GAT",
+      "in_channels": 60,
+      "hidden_channels": 64,
+      "out_channels": 64,
+      "heads": 4,
+      "dropout": 0.2
+    },
+    "seed": 43,
+    "best_epoch": 38,
+    "best_val_ap": 0.857,
+    "f1_threshold": 0.3818,
+    "checkpoint_path": "outputs/checkpoints/gat_seed43.pt",
+    "prediction_path": "outputs/predictions/gat_seed43_predictions.pt"
+  },
+  "GAT_seed44": {
+    "config": {
+      "model_type": "GAT",
+      "in_channels": 60,
+      "hidden_channels": 64,
+      "out_channels": 64,
+      "heads": 4,
+      "dropout": 0.2
+    },
+    "seed": 44,
+    "best_epoch": 55,
+    "best_val_ap": 0.8658,
+    "f1_threshold": 0.4682,
+    "checkpoint_path": "outputs/checkpoints/gat_seed44.pt",
+    "prediction_path": "outputs/predictions/gat_seed44_predictions.pt"
+  }
+}
